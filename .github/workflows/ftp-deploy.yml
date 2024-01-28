@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.strato.com
         username: wellnessoase-waldenbuch.de
-        password: ${{ ftp_password_strato }}
+        password: ${{ secrets.ftp_password_strato }}
