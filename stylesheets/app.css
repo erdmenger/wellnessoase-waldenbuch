@@ -1,29 +1,21 @@
-/* Artfully masterminded by ZURB  */
+/* Eigene Styles der WellnessOase (ersetzt die frühere Zurb-Vorlage und site.css). */
 
-/* -------------------------------------------------- 
-   Table of Contents
------------------------------------------------------
-:: Shared Styles
-:: Page Name 1
-:: Page Name 2
-*/
+html { scroll-padding-top: 60px; } /* Anker landen nicht unter der fixen Navigation */
 
+body { background-color: #f5d49b; }
 
-/* -----------------------------------------
-   Shared Styles
------------------------------------------ */
+#slider { margin-top: 20px; }
+#menu-gallery-map { margin: 20px auto 40px auto; }
 
+/* Kontaktbox (Diana) */
+.kontaktbox { width: 100%; }
+.kontaktbox td { background-color: #f5d49b; }
 
+/* Öffnungszeiten: abwechselnde Zeilenfarben */
+.zeiten { width: 100%; border: 0; }
+.zeiten th { background-color: #ffcc99; width: 100%; }
+.zeiten tbody tr:nth-child(odd) td { background-color: #f5d49b; }
+.zeiten tbody tr:nth-child(even) td { background-color: #ffcc99; }
 
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
-
-
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
-
+/* Rechtliche Seiten (Impressum, Datenschutz) */
+.legal { margin-top: 20px; margin-bottom: 40px; }
